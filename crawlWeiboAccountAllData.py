@@ -192,7 +192,7 @@ def getOneFileAccountAllData(account_File, account_allData_lib_File, headers, co
         account, weiboURL = accountInfo[0], accountInfo[5]
         accountAllData = findFromDataTable(account, account_allData_table)
         if accountAllData == []:
-            
+
             accountAllData = findFromDataTable(account, account_alldata_lib_table)
             if accountAllData == []:
                 accountBasicData = getAccountBasicData(account, headers, cookies, weiboURL = weiboURL)
@@ -200,12 +200,12 @@ def getOneFileAccountAllData(account_File, account_allData_lib_File, headers, co
                 if accountAllData[6] != '' and accountAllData[7] != '' and accountAllData[8] != '' and accountAllData[9] != '' and accountAllData[10] != '':
                     account_alldata_lib_table.append(accountAllData)
                     wtToXLS(account_alldata_lib_table, account_allData_lib_File, printFlag = False)
-            
+
             print(accountAllData)
             #if accountAllData[7] != '':
             account_allData_table.append(accountAllData)
             wtToXLS(account_allData_table, account_allData_File, printFlag = False)
-            
+
     print("OK-->" + account_File)
 
 
@@ -229,7 +229,7 @@ print(accountBasicData)
 
 # https://weibo.com/jiuzhaigou?is_all=1
 # https://weibo.com/u/2117508734?is_all=1
-# https://weibo.com/p/1001061803921393/home?is_all=1  
+# https://weibo.com/p/1001061803921393/home?is_all=1
 
 
 # https://weibo.com/u/2649761901?is_all=1
