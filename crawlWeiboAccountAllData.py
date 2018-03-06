@@ -211,7 +211,9 @@ def getOneFileAccountAllData(account_File, account_allData_lib_File, headers, co
 
 headers = {"User-Agent": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
           "Host": "weibo.com"}
-cookies = {"Cookie": "login_sid_t=01382ab0b6510f2c0dcf9f25af91d08b; cross_origin_proto=SSL; _s_tentry=passport.weibo.com; Apache=19731464414.383114.1517303735394; SINAGLOBAL=19731464414.383114.1517303735394; ULV=1517303735400:1:1:1:19731464414.383114.1517303735394:; SSOLoginState=1517303758; SCF=ArIlp8Ka1-FXhws57Lbj05FHQlAkOJgzFZExdtXA1HD32qYsFp1iPdrSXyZAlaI3phPz6N-Y_BwLrL9ehKMmoAM.; SUB=_2A253dEefDeRhGeBK7FYR9SrOyDiIHXVUAD5XrDV8PUNbmtBeLUKskW9NR5tPTyjzg7twbgzoACS6izjgeZtGP-Tu; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9Whk0FgS-iar-.KeDQ0SLHBy5JpX5K2hUgL.FoqXS0B7SKBEe0B2dJLoI7DAUcvbMcHEUJHE; SUHB=0jBYeKFn6GFhDP; ALF=1548839758; un=zwobserver@sina.com; wvr=6"}
+cookies = {
+"Cookie": "login_sid_t=01382ab0b6510f2c0dcf9f25af91d08b; cross_origin_proto=SSL; _s_tentry=passport.weibo.com; Apache=19731464414.383114.1517303735394; SINAGLOBAL=19731464414.383114.1517303735394; ULV=1517303735400:1:1:1:19731464414.383114.1517303735394:; SSOLoginState=1517303758; SCF=ArIlp8Ka1-FXhws57Lbj05FHQlAkOJgzFZExdtXA1HD32qYsFp1iPdrSXyZAlaI3phPz6N-Y_BwLrL9ehKMmoAM.; SUB=_2A253dEefDeRhGeBK7FYR9SrOyDiIHXVUAD5XrDV8PUNbmtBeLUKskW9NR5tPTyjzg7twbgzoACS6izjgeZtGP-Tu; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9Whk0FgS-iar-.KeDQ0SLHBy5JpX5K2hUgL.FoqXS0B7SKBEe0B2dJLoI7DAUcvbMcHEUJHE; SUHB=0jBYeKFn6GFhDP; ALF=1548839758; un=zwobserver@sina.com; wvr=6"
+}
 
 '''
 account_File = '北京暴雨事件官方微博汇总1207.xls'
